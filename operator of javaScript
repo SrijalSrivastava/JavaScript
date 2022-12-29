@@ -1,0 +1,11 @@
+// Program of operator in JS
+let a = 12;
+let b = 13;
+// program of artimatic operator
+console.log("a+b", a+b);
+console.log("a-b" , a-b);
+console.log("a*b" , a*b);
+console.log("a/b" , a/b);
+console.log("a%b" , a%b);
+// this is the exponential operator
+console.log("a**b" , a**b);

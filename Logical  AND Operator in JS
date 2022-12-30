@@ -1,0 +1,9 @@
+//  With the use of logical operators to find whether the age of person lies between 10 and 20 
+let age1 = 10;
+let age2 = 20;
+if(age1>10 && age2<20){
+    console.log("Your age lies between 10 and 20");
+}
+else{
+    console.log("your age is not lies between 10 and 20 ");
+}

@@ -1,0 +1,11 @@
+// Arrow function in JS
+// type 1
+const sum = (p,q)=>{
+    return p*q;
+}
+console.log(sum(4,7));
+// type 2
+const hello = ()=>{
+    console.log("how are you");
+}
+hello();

@@ -1,0 +1,7 @@
+// for loop 
+let sum =0;
+for(let i=0 ; i<46;i++){
+    console.log(i);
+    sum = sum + i;
+}
+console.log("the sum is "+sum);

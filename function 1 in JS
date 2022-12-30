@@ -1,0 +1,22 @@
+//function : It is a block of code which use again and again in javaScript
+// make a calculator with the help of function 
+function add(a,b){
+    console.log("This is perform the addition");
+    sum = a+b;
+    return sum;
+}
+function sub(a,b){
+    console.log("This is perform the substraction");
+    sub = a-b;
+    return sub;
+}
+function multiply(a,b){
+    console.log("This is perform the multiplication");
+    mul = a*b;
+    return mul;
+}
+let a =10;
+let b = 20;
+console.log(add(a,b));
+console.log(sub(a,b));
+console.log(multiply(a,b));

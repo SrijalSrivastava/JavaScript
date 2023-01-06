@@ -1,0 +1,13 @@
+let name = "harray";
+let friend = "prakesh"
+console.log(friend.length);
+console.log(name);
+// template litreals 
+let boy1 = "marray";
+let boy2 = "Jarray";
+let sentence = `marray is a friend of Jarray`;
+console.log(sentence);
+// escape Sentence character 
+let fruit = "Bana\'na";
+console.log(fruit);
+console.log(fruit.length);

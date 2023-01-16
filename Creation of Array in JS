@@ -1,0 +1,22 @@
+// 1. Creating the array using by literals method 
+let a = [1,3,4,5,8];
+console.log(a);
+// 2.Creating the array by  new keyword method 
+let fruits = new Array();
+fruits[0] = "apple";
+fruits[1] = "Mango";
+fruits[2] = "Grapes";
+fruits[3] = "Organes";
+fruits[4] = "pineapple";
+fruits[5] = "Oranges";
+// This is used for printing the array
+for(value of fruits){
+console.log(value);
+}
+
+// 3. creating the Array using by constructor 
+let apple = new Array(1,2,3,4,5,6,7);
+// This is used for printing the Array
+for(value of apple){
+    console.log(value);
+}

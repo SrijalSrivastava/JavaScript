@@ -1,0 +1,9 @@
+// Modification of Array 
+let a = ["harsh" , "happy" , "Abhinav" , "Kritima"]
+console.log(a);
+a[1] = "Poanam";
+a[4] = "Ritish"
+console.log(a)
+// delete the element from an Array 
+delete a[1];
+console.log(a);

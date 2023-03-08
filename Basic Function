@@ -1,0 +1,42 @@
+// funcion 
+// function Declaration 
+function functionname(){
+    // code goes here 
+}
+// functionName() // calling a function by function name and paraentesis
+// eg.1> 
+function square(){
+    let num =2;
+    let num1=3;
+    let sq=num+num1;
+console.log(sq);
+}
+square();
+// WAP to print a fullname by using function 
+// return value
+function fullName(){
+    let fname="Srijal";
+    let lname="Srivastava";
+    let full = fname+lname;
+    return full;
+}
+console.log("fullname is : "+fullName());
+// Function with Parameter
+function areaOfCircle(r){
+    let area = Math.PI*r*r;
+    return area;
+}
+console.log("area of circle is :"+areaOfCircle(3));
+// function with two parameter 
+function sumOfNum(a,b){
+    let sum = a+b;
+    return sum;
+}
+console.log("the sum of two number is  :" +sumOfNum(2,3));
+// Arrow function
+const circle = (r)=>{
+    return r*r;
+}
+console.log(3);
+
+

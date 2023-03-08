@@ -1,0 +1,14 @@
+// Ananumousa function 
+let show = function(){
+console.log("this is harray");
+};
+ show();
+// Self invoke Function 
+(function(){
+    console.log("hi");
+})();
+// Arrow function 
+const ser = ()=>{
+    console.log("how are you");
+}
+ser();
